@@ -13,13 +13,14 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        getSupportActionBar().hide();
     }
 
     public void PlayWakeTheFuckUp(View view) {
         stop();
         mediaPlayer = MediaPlayer.create(MainActivity.this, R.raw.wake_the_fuck_up_samurai);
         mediaPlayer.start();
-        }
+    }
 
     public void PlayKurwa(View view) {
         stop();
@@ -39,6 +40,6 @@ public class MainActivity extends AppCompatActivity {
             mediaPlayer.release();
             mediaPlayer = null;
         }
-        }
+    }
 }
 
