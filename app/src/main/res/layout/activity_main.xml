@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/cyberpunk2077wallpaper"
+    >
+
+    <android.support.v7.widget.AppCompatTextView
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textSize="20dp"
+        android:textColor="@color/colorAccent"
+        android:text="Click the buttons below to play catchphrases"
+        />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="130dp" />
+
+    <Button
+        android:id="@+id/wakeTheFuckUp_button"
+        android:onClick="PlayWakeTheFuckUp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/gradient_color"
+        android:text="Wake the fuck up samurai!"
+        />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="15dp" />
+
+    <Button
+        android:id="@+id/kurwa_button"
+        android:onClick="PlayKurwa"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/gradient_color"
+        android:text="O Kurwa!"
+        />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="15dp" />
+
+    <Button
+        android:id="@+id/wypierdalaj_button"
+        android:onClick="PlayWypierdalaj"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/gradient_color"
+        android:text="Wypierdalaj!"
+        />
+
+</LinearLayout>
+
+
