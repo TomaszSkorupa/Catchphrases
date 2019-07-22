@@ -58,6 +58,19 @@
         android:text="Wypierdalaj!"
         />
 
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="15dp" />
+
+    <Button
+        android:id="@+id/youreBreathtaking_button"
+        android:onClick="PlayYoureBreathtaking"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/gradient_color"
+        android:text="You're Breathtaking!"
+        />
+
 </LinearLayout>
 
 

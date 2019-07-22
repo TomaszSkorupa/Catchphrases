@@ -38,6 +38,12 @@ public class MainActivity extends AppCompatActivity {
         mediaPlayer.start();
     }
 
+    public void PlayYoureBreathtaking(View view) {
+        stop();
+        mediaPlayer = MediaPlayer.create(MainActivity.this, R.raw.your_breathtaking);
+        mediaPlayer.start();
+    }
+
     public void stop() {
         if (mediaPlayer != null) {
             mediaPlayer.stop();
@@ -50,6 +56,7 @@ public class MainActivity extends AppCompatActivity {
         window = getWindow();
         window.setFlags(WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS, WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS);
     }
+
 
 }
 
